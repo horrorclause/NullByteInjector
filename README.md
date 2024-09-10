@@ -25,7 +25,7 @@ For longer commands that have multiple quotations in them, it would be better to
 In the above image there are parsing errors due to the special characters and quotations for this reverse shell; save the command to a file (using nano, gedit,etc) and then `cat` out the file to be fed into the nullbyte injection script:
 
 ```bash
-$ sudo python3 /opt/NullByteInjector/nullByte.py $(cat command)
+$ sudo python3 nullByte.py $(cat command)
 ```
 > `command` in the above entry is the name of the file containing my reverse shell
 
