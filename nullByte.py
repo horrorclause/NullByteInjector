@@ -27,5 +27,5 @@ if __name__ == "__main__":
         print(f"Modified Command: {output}")
 
     else:
-        print('Script usage is "python3 nullbyte.py <command>"')
+        print('Script usage is "python3 nullByte.py <command>"')
         
