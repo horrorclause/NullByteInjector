@@ -21,7 +21,7 @@ def base64Encoding (encoded):
 if __name__ == "__main__":
 
     if len(sys.argv) >1:
-        command = ' '.join(sys.argv[1:])
+        command = " ".join(sys.argv[1:])
         print(f"Command submitted: {command}")
         output = base64Encoding(injection(command))
         print(f"Modified Command: {output}")
