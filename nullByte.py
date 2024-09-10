@@ -28,3 +28,4 @@ if __name__ == "__main__":
 
     else:
         print('Script usage is "python3 nullbyte.py <command>"')
+        
